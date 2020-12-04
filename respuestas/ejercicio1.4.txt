@@ -1,0 +1,47 @@
+
+D:\Educa\daw1_a\Escritorio
+λ cd D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA
+λ git clone https://github.com/carlosgs-iesquevedo/entornos1T Entornos1T
+Cloning into 'Entornos1T'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA
+λ git branch GONZALEZ-GARCIA
+fatal: not a git repository (or any of the parent directories): .git
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA
+λ cd D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T (main)
+λ git branch GONZALEZ-GARCIA
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T (main)
+λ git checkout GONZALEZ-GARCIA
+Switched to branch 'GONZALEZ-GARCIA'
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T (GONZALEZ-GARCIA)
+λ git mkdir respuestas
+git: 'mkdir' is not a git command. See 'git --help'.
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T (GONZALEZ-GARCIA)
+λ mkdir respuestas
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T (GONZALEZ-GARCIA)
+λ cd D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T\respuestas
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T\respuestas (GONZALEZ-GARCIA) λ touch ejercicio1.4.txt
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T\respuestas (GONZALEZ-GARCIA) λ git add .
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T\respuestas (GONZALEZ-GARCIA) λ git commit -m "Añadida respuesta ejercicio 1.4"
+[GONZALEZ-GARCIA 853701c] Añadida respuesta ejercicio 1.4
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 respuestas/ejercicio1.4.txt
+
+D:\Educa\daw1_a\Escritorio\examen-GONZÁLEZ-GARCÍA\Entornos1T\respuestas (GONZALEZ-GARCIA) λ
